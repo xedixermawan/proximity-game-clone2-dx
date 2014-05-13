@@ -1,0 +1,29 @@
+// game proto message 
+
+package unknowngamemessage;
+
+message Mvector2d	{
+	required float vx = 1; 
+	required float vy = 2; 
+}
+message Mheader {
+	enum Emsgtype {
+		EDIT_PARTICLE = 0;
+		EDIT_TILEDMAP = 1;
+	}
+	required int32 uid = 1;
+	required Emsgtype msgtype = 2;
+}
+
+message Meditparticle {
+	required Mheader header = 1;
+	optional Mvector2d randomemissioninterval = 2;
+	optional Mvector2d lifetime = 3; 
+	optional Mvector2d direction = 4; 
+	optional Mvector2d speed = 5; 
+	optional Mvector2d rotation = 6; 
+	optional Mvector2d rotationspeed = 7; 
+	optional Mvector2d fadetime = 8; 
+	optional Mvector2d scale = 9;
+	optional string texname = 10; 
+}
