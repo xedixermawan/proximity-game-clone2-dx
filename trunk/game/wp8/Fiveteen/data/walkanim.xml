@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xedithor's sprite file-->
+<!--last saved: 18/12/2011 17:34-->
+<sprites>
+    <image>
+        <path>N:/XediProjects/DX_desktop_simple_backup_run/NeuTraining/Game/Debug/walkanim.png</path>
+    </image>
+    <modules nModules="10">
+        <nRow>0 1000 0 0 107 243 </nRow>
+        <nRow>0 1001 108 0 105 229 </nRow>
+        <nRow>0 1002 213 0 72 242 </nRow>
+        <nRow>0 1003 286 0 102 246 </nRow>
+        <nRow>0 1004 388 0 107 246 </nRow>
+        <nRow>0 1005 -1 245 111 238 </nRow>
+        <nRow>0 1006 109 248 71 248 </nRow>
+        <nRow>0 1007 181 248 104 252 </nRow>
+        <nRow>0 1169 213 329 55 160 </nRow>
+        <nRow>0 1170 0 0 32 32 </nRow>
+    </modules>
+    <frames nFrames="8">
+        <itemFrame ID="3000" nModFrame="1" name="frame">
+            <RowModFrm>1000 0 0 </RowModFrm>
+        </itemFrame>
+        <itemFrame ID="3001" nModFrame="1" name="frame">
+            <RowModFrm>1001 0 0 </RowModFrm>
+        </itemFrame>
+        <itemFrame ID="3002" nModFrame="1" name="frame">
+            <RowModFrm>1002 0 0 </RowModFrm>
+        </itemFrame>
+        <itemFrame ID="3003" nModFrame="1" name="frame">
+            <RowModFrm>1003 0 0 </RowModFrm>
+        </itemFrame>
+        <itemFrame ID="3004" nModFrame="1" name="frame">
+            <RowModFrm>1004 0 0 </RowModFrm>
+        </itemFrame>
+        <itemFrame ID="3005" nModFrame="1" name="frame">
+            <RowModFrm>1005 0 0 </RowModFrm>
+        </itemFrame>
+        <itemFrame ID="3006" nModFrame="1" name="frame">
+            <RowModFrm>1006 0 0 </RowModFrm>
+        </itemFrame>
+        <itemFrame ID="3007" nModFrame="1" name="frame">
+            <RowModFrm>1007 0 0 </RowModFrm>
+        </itemFrame>
+    </frames>
+    <anims nAnims="1">
+        <itemAnim ID="5003" nAnimFrame="8" name="anim">
+            <RowFrmAnim>3000 4 -238 50 </RowFrmAnim>
+            <RowFrmAnim>3001 7 -223 50 </RowFrmAnim>
+            <RowFrmAnim>3002 12 -232 50 </RowFrmAnim>
+            <RowFrmAnim>3003 0 -240 50 </RowFrmAnim>
+            <RowFrmAnim>3004 0 -237 50 </RowFrmAnim>
+            <RowFrmAnim>3005 -2 -233 50 </RowFrmAnim>
+            <RowFrmAnim>3006 19 -241 50 </RowFrmAnim>
+            <RowFrmAnim>3007 6 -248 50 </RowFrmAnim>
+        </itemAnim>
+    </anims>
+</sprites>

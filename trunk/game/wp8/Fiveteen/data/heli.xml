@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xedithor's sprite file-->
+<!--last saved: 18/12/2011 17:34-->
+<sprites>
+    <image>
+        <path>N:/XediProjects/_unknown_games/game/bin/data/heli.png</path>
+    </image>
+    <modules nModules="3">
+        <nRow>0 1000 1 7 245 98 </nRow>
+        <nRow>0 1001 266 5 245 98 </nRow>
+        <nRow>0 1002 122 116 260 98 </nRow>
+    </modules>
+    <frames nFrames="3">
+        <itemFrame ID="3000" nModFrame="1" name="frame">
+            <RowModFrm>1000 0 0 </RowModFrm>
+        </itemFrame>
+        <itemFrame ID="3001" nModFrame="1" name="frame">
+            <RowModFrm>1001 0 0 </RowModFrm>
+        </itemFrame>
+        <itemFrame ID="3002" nModFrame="1" name="frame">
+            <RowModFrm>1002 0 0 </RowModFrm>
+        </itemFrame>
+    </frames>
+    <anims nAnims="1">
+        <itemAnim ID="5000" nAnimFrame="3" name="anim">
+            <RowFrmAnim>3000 0 0 1 </RowFrmAnim>
+            <RowFrmAnim>3001 -3 -3 1 </RowFrmAnim>
+            <RowFrmAnim>3002 -11 2 1 </RowFrmAnim>
+        </itemAnim>
+    </anims>
+</sprites>

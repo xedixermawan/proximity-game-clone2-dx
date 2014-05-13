@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <StartArguments>N:\XediProjects\pro-x_w8\game\tools\makespritefont\tungab.ttf N:\XediProjects\pro-x_w8\game\tools\makespritefont\tunga.font</StartArguments>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="GameData">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Sources\utility">
+      <UniqueIdentifier>{6a484265-c4ed-4930-ad76-3bca2bd67e46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\dataHeader">
+      <UniqueIdentifier>{91ff94c4-d0a2-449c-9c53-62df1d5386bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\gui">
+      <UniqueIdentifier>{fa120027-7ba4-4937-9a6c-6f54e695afe0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\tiles">
+      <UniqueIdentifier>{4369017b-3697-4ef8-bda1-b217b9ca8419}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\player">
+      <UniqueIdentifier>{ff6e17d0-1b50-438c-a966-7632fce64df6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\particle">
+      <UniqueIdentifier>{9a99b69c-9625-41e2-ad5c-c6e724d8a97a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\template">
+      <UniqueIdentifier>{0dd4b733-5ae9-463f-affe-8347a3f889f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\state">
+      <UniqueIdentifier>{37e1d5c6-ad46-440e-ad7a-6383b7314dd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\sprite">
+      <UniqueIdentifier>{0a03a2cf-58a2-4fad-97a1-83c6d4d01b89}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\MainApp.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XDRGame.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XDRGameRenderer.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CreateState.cpp">
+      <Filter>Sources\state</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StateLoading.cpp">
+      <Filter>Sources\state</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StateMenu.cpp">
+      <Filter>Sources\state</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SpriteLoader.cpp">
+      <Filter>Sources\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XDRAnimObject.cpp">
+      <Filter>Sources\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XDRSprite.cpp">
+      <Filter>Sources\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FileSystem.cpp">
+      <Filter>Sources\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FuncUtils.cpp">
+      <Filter>Sources\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Button.cpp">
+      <Filter>Sources\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GUIManager.cpp">
+      <Filter>Sources\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TileMgr.cpp">
+      <Filter>Sources\tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MainPlayer.cpp">
+      <Filter>Sources\player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Camera.cpp">
+      <Filter>Sources\tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TiledMapObjectLoader.cpp">
+      <Filter>Sources\tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject.cpp">
+      <Filter>Sources\player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ParticleSystem.cpp">
+      <Filter>Sources\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Particle.cpp">
+      <Filter>Sources\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Emitter.cpp">
+      <Filter>Sources\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EmitterCreator.cpp">
+      <Filter>Sources\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PhysicTest.cpp">
+      <Filter>Sources\player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Board.cpp">
+      <Filter>Sources\player</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\CreateState.h">
+      <Filter>Sources\state</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameState.h">
+      <Filter>Sources\state</Filter>
+    </ClInclude>
+    <ClInclude Include="src\StateLoading.h">
+      <Filter>Sources\state</Filter>
+    </ClInclude>
+    <ClInclude Include="src\StateMenu.h">
+      <Filter>Sources\state</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Properties.hpp">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\XDRGame.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\XDRGameRenderer.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SpriteConstant.h">
+      <Filter>Sources\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SpriteLoader.h">
+      <Filter>Sources\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="src\XDRAnimObject.h">
+      <Filter>Sources\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="src\XDRSprite.h">
+      <Filter>Sources\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FileSystem.h">
+      <Filter>Sources\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FuncUtils.h">
+      <Filter>Sources\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FrameAnimDescription.h">
+      <Filter>Sources\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SpriteLuck.h">
+      <Filter>Sources\dataHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Button.h">
+      <Filter>Sources\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ElementBase.h">
+      <Filter>Sources\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GUIManager.h">
+      <Filter>Sources\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GlobalConst.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TileMgr.h">
+      <Filter>Sources\tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MainPlayer.h">
+      <Filter>Sources\player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Camera.h">
+      <Filter>Sources\tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TiledMapObjectLoader.h">
+      <Filter>Sources\tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObject.h">
+      <Filter>Sources\player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\basesingleton.h">
+      <Filter>Sources\template</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ParticleSystem.h">
+      <Filter>Sources\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Particle.h">
+      <Filter>Sources\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Emitter.h">
+      <Filter>Sources\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EmitterCreator.h">
+      <Filter>Sources\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PhysicTest.h">
+      <Filter>Sources\player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Board.h">
+      <Filter>Sources\player</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="bin\shader\PixelShader.hlsl">
+      <Filter>GameData</Filter>
+    </FxCompile>
+    <FxCompile Include="bin\shader\VertexShader.hlsl">
+      <Filter>GameData</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
